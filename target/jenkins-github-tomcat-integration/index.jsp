@@ -8,10 +8,5 @@
 </head>
 <body>
 	<h1>Welcome to Continuous Integration & Continuous Deployment using Jenkins!</h1>
-
-	<form action="WelcomeServlet" method="post">
-		Username: <input type="text" name="username" placeholder="enter username">
-		<button type="submit">Submit</button>
-	</form>
 </body>
 </html>
