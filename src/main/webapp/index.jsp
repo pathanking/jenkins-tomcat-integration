@@ -10,7 +10,8 @@
 	<h1>Welcome to Continuous Integration & Continuous Deployment using Jenkins!</h1>
 
 	<form action="WelcomeServlet" method="post">
-		Username: <input type="text" name="username" placeholder="enter username">
+		Username: <input type="text" name="username" placeholder="enter username"> <br><br>
+		Password: <input type="password" name="password" placeholder="enter password"> <br>
 		<button type="submit">Submit</button>
 	</form>
 </body>
