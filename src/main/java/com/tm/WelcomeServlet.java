@@ -20,8 +20,10 @@ public class WelcomeServlet extends HttpServlet {
 		PrintWriter writer = response.getWriter();
 
 		String username = request.getParameter("username");
+		String password = request.getParameter("password");
 
-		writer.println("<h2>Welcome Mr. " + username + ", to Jenkins CI/CD</h2>");
+		writer.println("<h1 style='color:green'>Welcome Mr. " + username + ", to Jenkins CI/CD</h1>");
+		writer.println("<h2 style='color:blue'>Here's your secret password :  " + password + "</h2>");
 	}
 
 }
